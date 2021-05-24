@@ -13,9 +13,9 @@
         <link rel="stylesheet"href="styles/style.css?ver=0.1">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Ruda&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="styles\fonts\sinkin-sans\sinkinsans_400regular_macroman\stylesheet.css" type="text/css" charset="utf-8" />
-        <link rel="stylesheet" href="styles\fonts\sinkin-sans\sinkinsans_500medium_macroman\stylesheet.css" type="text/css" charset="utf-8" />
-        <link rel="stylesheet" href="styles\fonts\sinkin-sans\sinkinsans_900xblack_macroman\stylesheet.css" type="text/css" charset="utf-8" />
+        <link rel="stylesheet" href="styles/fonts/sinkin-sans/sinkinsans_400regular_macroman/stylesheet.css" type="text/css" charset="utf-8" />
+        <link rel="stylesheet" href="styles/fonts/sinkin-sans/sinkinsans_500medium_macroman/stylesheet.css" type="text/css" charset="utf-8" />
+        <link rel="stylesheet" href="styles/fonts/sinkin-sans/sinkinsans_900xblack_macroman/stylesheet.css" type="text/css" charset="utf-8" />
 
         <!-- Meta Tags, Open Graph -->
         <title>Marotha Turismo - Passeios em Paraty</title>
@@ -28,12 +28,108 @@
     </head>
     <body> 
         <header class="header">
+            <div class="header-container">
+                <a href="#roteiros" class="header-link">ROTEIROS</a>
+                <img src="imgs\header-logo.png" alt="Marotha Logo" class="header-logo">
+                <a href="#contato" class="header-link">CONTATO</a>
+            </div>
+            <div class="hero-container">
+                <h1 class="hero-text">
+                    O PARAÍSO COMEÇA AQUI<br><span>E NÓS TE LEVAMOS ATÉ ELE</span>
+                </h1>
+            </div>
         </header>
-        <div class="container">
-            <h1 class="title">Marotha website is working!</h1>
-            <br>
-            <img src="imgs/paraty.jpg" alt="Paraty street">
-        </div>
+        <section class="about">
+            <div class="section-container">
+                <h2 class="section-title about-title">SOBRE NÓS</h2>
+                <div class="about-content-container">
+                    <div class="about-text-container">
+                        <p class="section-text about-text">Um passeio que irá arrebatar o caração dos amantes do mar! Cercados pela exuberante Mata Atlântica e com águas intensamente coloridas pelo verde e azul, venha desfrutar de um paradisíaco passeio a bordo da Marotha, em um momento único e inesquecível!</p>
+                        <a href="" class="button"><img src="imgs/whatsapp-icon.png" alt="Whatsapp logo">AGENDAR PELO WHATSAPP</a>
+                    </div>
+                    <div class="about-item-container">
+                        <div class="about-item">
+                            <img src="imgs/family-icon.jpg" alt="" class="about-item-image">
+                            <p class="about-item-text">PASSEIO PRIVATIVO</p>
+                        </div>
+                        <div class="about-item">
+                            <img src="imgs/float-icon.jpg" alt="" class="about-item-image">
+                            <p class="about-item-text">CONFORTO E SEGURANÇA</p>
+                        </div>
+                        <div class="about-item">
+                            <img src="imgs/drink-icon.jpg" alt="" class="about-item-image">
+                            <p class="about-item-text">CULINÁRIA TÍPICA</p>
+                        </div>
+                        <div class="about-item">
+                            <img src="imgs/dolphin-icon.jpg" alt="" class="about-item-image">
+                            <p class="about-item-text">PONTOS PARA MERGULHO</p>
+                        </div>
+                        <div class="about-item">
+                            <img src="imgs/island-icon.jpg" alt="" class="about-item-image">
+                            <p class="about-item-text">DESTINOS PARADISÍACOS</p>
+                        </div>
+                        <div class="about-item">
+                            <img src="imgs/camera-icon.jpg" alt="" class="about-item-image">
+                            <p class="about-item-text">MELHORES LOCAIS PARA FOTOS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="roadmap">
+            <div class="section-container">
+                <h2 class="section-title roadmap-title">NOSSO ROTEIRO</h2>
+                <p class="section-text">Média de 5 a 6 horas de passeio</p>
+                <div class="roadmap-carousel">
+                    <div class="roadmap-card">
+                        <img src="imgs/praia-do-jurumirim.jpg" alt="Praia do Jurumirim" class="roadmap-card-image">
+                        <p class="card-title">PRAIA DO JURUMIRIM</p>
+                    </div>
+                    <div class="roadmap-card">
+                        <img src="imgs/praia-vermelha.jpg" alt="Praia Vermelha" class="roadmap-card-image">
+                        <p class="card-title">PRAIA VERMELHA</p>
+                    </div>
+                    <div class="roadmap-card">
+                        <img src="imgs/lagoa-azul.jpg" alt="Lagoa Azul" class="roadmap-card-image">
+                        <p class="card-title">LAGOA AZUL</p>
+                    </div>
+                    <div class="roadmap-card">
+                        <img src="imgs/ilha-da-cotia.jpg" alt="Ilha da Cotia" class="roadmap-card-image">
+                        <p class="card-title">ILHA DA COTIA</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="boat-details">
+            <div class="section-container">
+                <h2 class="section-title boat-details-title">A MAROTHA</h2>
+                <div class="boat-details-cards-container">
+                    <div class="boat-details-card">
+                        <img src="imgs/girl-diver.jpg" alt="Ilha da Cotia" class="roadmap-card-image">
+                        <p class="card-title boat-details-card-title">AQUI VOCÊ PODE</p>
+                        <p class="section-text">Montar um roteiro personalizado para você, sua família e amigos</p>
+                    </div>
+                    <div class="boat-details-card">
+                        <img src="imgs/boat-view.jpg" alt="Ilha da Cotia" class="roadmap-card-image">
+                        <p class="card-title boat-details-card-title">EMBARCAÇÃO</p>
+                        <p class="section-text">Nossa lancha tem 25 pés com capacidade para 11 + 1 pessoas</p>
+                    </div>
+                    <div class="boat-details-card">
+                        <img src="imgs/boat-rear.jpg" alt="Ilha da Cotia" class="roadmap-card-image">
+                        <p class="card-title boat-details-card-title">TEMOS CAIXA TÉRMICA COM GELO E ÁGUA</p>
+                        <p class="section-text">E também som bluetooth, ducha de água doce, flutuadores e máscara de mergulho</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="lunch">
+            <div class="section-container lunch-container">
+                <div class="lunch-text-container">
+                    <h2 class="lunch-title">PARADA PARA ALMOÇO</h2>
+                    <p class="section-text">Nosso passeio faz uma parada para você e sua família terem a oportunidade de experimentar as diversas opções de restaurantes, com o mais saboroso da nossa culinária local.</p>
+                </div>
+            </div>
+        </section>
         <footer class="footer">
         </footer>
     </body>

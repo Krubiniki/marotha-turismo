@@ -1,7 +1,208 @@
-.container{
-    max-width: 800px;
+.header{
+    background-image: url("/imgs/hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 625px;
+}
+
+.header-container{
+    max-width: 400px;
+    margin:0px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.header-link{
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 130%;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 24px 32px;
+    height: 100%;
+}
+.header-link:hover{
+    text-decoration: underline;
+}
+
+.hero-container{
+    margin: 245px 0px 0px 135px;
+}
+
+.hero-text{
+    font-family: 'sinkin_sans500_medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+.hero-text span{
+    font-family: 'sinkin_sans900_x_black';
+    font-weight: 900;
+}
+
+.section-title{
+    font-family: 'sinkin_sans900_x_black';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 21px;
+    line-height: 130%;
+    color: #348EC7;
+}
+
+.section-text{
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #0E4972;
+}
+
+.button{
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #348EC7;
+    border-radius: 10px;
+    padding: 20px 0px;
+    display:flex;
+    max-width: 370px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button img{
+    margin-right: 12px;
+}
+
+.section-container{
+    max-width: 1170px;
     margin: 0px auto;
 }
-.title{
-    color: aquamarine;
+
+.about{
+    margin: 88px 0 96px;
+}
+
+.about-title{
+    margin-bottom: 32px;
+}
+
+.about-content-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-text-container{
+    max-width: 400px;
+}
+
+.about-text{
+    margin-bottom: 48px;
+}
+
+.about-item-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 680px;
+}
+
+.about-item{
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.about-item-image{
+    margin-right: 16px;
+}
+
+.about-item-text{
+    font-family: 'sinkin_sans400_regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    color: #0E4972;
+}
+
+.roadmap-title{
+    margin-bottom: 8px;
+}
+
+.roadmap-carousel{
+    margin: 34px 0 72px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.roadmap-card{
+    width: 270px;
+}
+
+.card-title{
+    font-family: 'sinkin_sans400_regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #979797;
+}
+
+.boat-details{
+    margin-bottom: 72px;
+}
+
+.boat-details-title{
+    margin-bottom: 32px;
+}
+
+.boat-details-cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.boat-details-card{
+    width: 370px;
+}
+
+.boat-details-card-title{
+    margin: 16px 0 8px;
+}
+
+.lunch{
+    margin-bottom: 72px;
+}
+
+.lunch-container{
+    background-image: url("/imgs/food-banner.jpg");
+    height: 400px;
+}
+
+.lunch-text-container{
+    max-width: 400px;
+    padding: 88px 0px 0px 69px;
+}
+
+.lunch-title{
+    font-family: 'sinkin_sans900_x_black';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 130%;
+    color: #104972;
+    margin-bottom: 32px;
 }
