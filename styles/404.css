@@ -1,0 +1,54 @@
+.not-found-container{
+    text-align: center;
+    margin: 120px 0px 0px;
+}
+
+.not-found-title{
+    margin: 32px 0px 8px;
+    font-family:'sinkin_sans500_medium';
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 130%;
+    color: #348EC7;
+}
+
+.not-found-subtitle{
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #0E4972;
+    max-width: 306px;
+    margin: 0px auto 16px;
+}
+
+.button{
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #348EC7;
+    border-radius: 10px;
+    padding: 20px 0px;
+    display:flex;
+    max-width: 370px;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+@media only screen and (max-width:768px){
+    .not-found-container{
+        margin: 60px 0px 0px;
+    }
+}
+
+@media only screen and (max-width:394px){
+    .button{
+        margin: 0px 12px;
+    }
+}
