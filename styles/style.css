@@ -80,10 +80,15 @@
     max-width: 370px;
     justify-content: center;
     align-items: center;
+    transition: 0.5s;
 }
 
 .button img{
     margin-right: 12px;
+}
+
+.button:hover{
+    background-color: #0E4972;
 }
 
 .section-container{

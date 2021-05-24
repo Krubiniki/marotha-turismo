@@ -39,6 +39,11 @@
     max-width: 370px;
     justify-content: center;
     margin: 0px auto;
+    transition: 0.5s;
+}
+
+.button:hover{
+    background-color: #0E4972;
 }
 
 @media only screen and (max-width:768px){
