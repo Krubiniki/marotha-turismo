@@ -153,7 +153,11 @@ html, body{
 }
 
 
-.roadmap-carousel , .exclusive-roadmap-card-container{
+.roadmap-carousel{
+    margin: 34px 0 72px;
+}
+
+.exclusive-roadmap-card-container{
     margin: 34px 0 72px;
     display: flex;
     justify-content: space-between;
