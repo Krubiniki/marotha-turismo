@@ -1,3 +1,7 @@
+html, body{
+    scroll-behavior: smooth;
+}
+
 .header{
     background-image: url("/imgs/hero.jpg");
     background-position: center;
@@ -143,17 +147,23 @@
     color: #0E4972;
 }
 
-.roadmap-title{
-    margin-bottom: 8px;
+.roadmap-subtitle , .exclusive-roadmap-subtitle{
+    margin-top: 8px;
+    color: #348EC7;
 }
 
-.roadmap-carousel{
+
+.roadmap-carousel , .exclusive-roadmap-card-container{
     margin: 34px 0 72px;
     display: flex;
     justify-content: space-between;
 }
 
-.roadmap-card{
+.exclusive-roadmap-card-container{
+    flex-wrap: wrap;
+}
+
+.roadmap-card, .exclusive-roadmap-card{
     width: 270px;
 }
 
@@ -164,6 +174,7 @@
     font-size: 14px;
     line-height: 150%;
     color: #979797;
+    margin-top: 16px;
 }
 
 .boat-details{
@@ -210,4 +221,90 @@
     line-height: 130%;
     color: #104972;
     margin-bottom: 32px;
+}
+
+.details{
+    margin-bottom: 72px;
+}
+
+.details-title{
+    margin-bottom: 32px;
+}
+
+.details-itens{
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 0px 40px;
+}
+
+.details-item{
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.details-item , .details-item-last{
+    display: flex;
+    padding: 32px 0px;
+}
+
+.details-item-title{
+    font-family: 'sinkin_sans400_regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #979797;
+    margin-right: 30px;
+    width: 230px;
+}
+
+.details-item .section-text , .details-item-last .section-text{
+    max-width: 830px;
+}
+
+.footer{
+    background: #FAFAFA;
+    padding: 72px 135px 97px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title{
+    margin-bottom: 32px;
+}
+
+.footer-subtitle{
+    font-family: 'sinkin_sans400_regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #979797;
+    margin-bottom: 16px;
+}
+
+.footer-text{
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 150%;
+    color: #0E4972;
+    margin-bottom: 24px;
+}
+
+.footer .button{
+    margin-bottom: 32px;
+}
+
+.footer .button:hover{
+    background-color: #0E4972;
+}
+
+.social-media-link{
+    margin-right: 24px;
+}
+
+.footer-map{
+    border-radius: 10px;
 }

@@ -10,7 +10,7 @@
         <!-- Styles, Fonts, Favicon -->
         <link rel="icon" type="image/png" href="imgs/favicon.png"/>
         <link rel="stylesheet" href="styles/reset.css?ver=1.0">
-        <link rel="stylesheet"href="styles/style.css?ver=0.1">
+        <link rel="stylesheet"href="styles/style.css?ver=0.5">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Ruda&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles/fonts/sinkin-sans/sinkinsans_400regular_macroman/stylesheet.css" type="text/css" charset="utf-8" />
@@ -45,7 +45,7 @@
                 <div class="about-content-container">
                     <div class="about-text-container">
                         <p class="section-text about-text">Um passeio que irá arrebatar o caração dos amantes do mar! Cercados pela exuberante Mata Atlântica e com águas intensamente coloridas pelo verde e azul, venha desfrutar de um paradisíaco passeio a bordo da Marotha, em um momento único e inesquecível!</p>
-                        <a href="" class="button"><img src="imgs/whatsapp-icon.png" alt="Whatsapp logo">AGENDAR PELO WHATSAPP</a>
+                        <a href="https://api.whatsapp.com/send/?phone=5524992171612&text=Olá, tudo bem?%0AOlhei o seu site e me interessei pelos passeios da Marotha em Paraty, vamos agendar um passeio?" class="button" target="_blank"><img src="imgs/whatsapp-icon.png" alt="Whatsapp logo">AGENDAR PELO WHATSAPP</a>
                     </div>
                     <div class="about-item-container">
                         <div class="about-item">
@@ -76,10 +76,10 @@
                 </div>
             </div>
         </section>
-        <section class="roadmap">
+        <section class="roadmap" id="roteiros">
             <div class="section-container">
-                <h2 class="section-title roadmap-title">NOSSO ROTEIRO</h2>
-                <p class="section-text">Média de 5 a 6 horas de passeio</p>
+                <h2 class="section-title">NOSSO ROTEIRO</h2>
+                <p class="section-text roadmap-subtitle">Média de 5 a 6 horas de passeio</p>
                 <div class="roadmap-carousel">
                     <div class="roadmap-card">
                         <img src="imgs/praia-do-jurumirim.jpg" alt="Praia do Jurumirim" class="roadmap-card-image">
@@ -130,7 +130,67 @@
                 </div>
             </div>
         </section>
-        <footer class="footer">
+        <section class="exclusive-roadmap">
+            <div class="section-container">
+                <h2 class="section-title">ROTEIROS EXCLUSIVOS</h2>
+                <p class="section-text exclusive-roadmap-subtitle">Opções que podem ser inclusas no roteiro</p>
+                <div class="exclusive-roadmap-card-container">
+                    <div class="exclusive-roadmap-card">
+                        <img src="imgs/praia-com-canhoeira.jpg" alt="Praia com cachoeira" class="exclusive-roadmap-card-image" style="border-radius: 10px;">
+                        <p class="card-title">PRAIA COM CACHOEIRA</p>
+                    </div>
+                    <div class="exclusive-roadmap-card">
+                        <img src="imgs/pouso-da-cajaiba.jpg" alt="Pouso da Cajaíba" class="exclusive-roadmap-card-image">
+                        <p class="card-title">POUSO DA CAJAÍBA</p>
+                    </div>
+                    <div class="exclusive-roadmap-card">
+                        <img src="imgs/praia-de-itanema.jpg" alt="Praia de Itanema" class="exclusive-roadmap-card-image">
+                        <p class="card-title">PRAIA DE ITANEMA</p>
+                    </div>
+                    <div class="exclusive-roadmap-card">
+                        <img src="imgs/praia-do-itaoca.jpg" alt="Praia do Itaoca" class="exclusive-roadmap-card-image">
+                        <p class="card-title">PRAIA DO ITAOCA</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="details">
+            <div class="section-container">
+                <h2 class="section-title details-title">OUTROS DETALHES</h2>
+                <div class="details-itens">
+                    <div class="details-item">
+                        <h3 class="details-item-title">PONTOS DE MERGULHO</h3>
+                        <p class="section-text">As paradas para mergulho são em pontos com bastante vida marinha e ótima visibilidade, geralmente localizados na Ilha dos Cocos, Ilha do Algodão e Ilha Comprida (aquário natural).</p>
+                    </div>
+                    <div class="details-item">
+                        <h3 class="details-item-title">PARADA PARA ALMOÇO</h3>
+                        <p class="section-text">Uma das seguintes opções: Restaurante do Hiltinho na Ilha do Algodão, Restaurante do Dadico no Saco do Mamanguá, Restaurante das Amendoeiras na Praia Vermelha ou no Restaurante Engenho D’água.</p>
+                    </div>
+                    <div class="details-item-last">
+                        <h3 class="details-item-title">ROTEIROS EXCLUSIVOS</h3>
+                        <p class="section-text">Os destinhos citados na seção <span>Roteiros Exclusivos</span> não fazem parte do nosso roteiro normal, mas podem ser incluídos no roteiro personalizado conforme a preferência do cliente.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer" id="contato">
+            <div class="footer-contact">
+                <h4 class="section-title footer-title">AGENDE SEU PASSEIO</h4>
+                <a href="https://api.whatsapp.com/send/?phone=5524992171612&text=Olá, tudo bem?%0AOlhei o seu site e me interessei pelos passeios da Marotha em Paraty, vamos agendar um passeio?" class="button" target="_blank"><img src="imgs/whatsapp-icon.png" alt="Whatsapp logo">AGENDAR PELO WHATSAPP</a>
+                <h6 class="footer-subtitle">TELEFONES</h6>
+                <p class="footer-text">(24) 99217-1612  /  (24) 99944-0767</p>
+                <h6 class="footer-subtitle">SIGA NOSSAS REDES SOCIAIS</h6>
+                <div class="footer-social-media-container">
+                    <a href="https://www.facebook.com/pages/category/Product-Service/Marotha-Paraty-107229684483074/" class="social-media-link"><img src="imgs/facebook-icon.png" alt="Facebook Icon"></a>
+                    <a href="https://www.instagram.com/marothaparaty/" class="social-media-link" target="_blank"><img src="imgs/instagram-icon.png" alt="Instagram Icon"></a>
+                </div>
+            </div>
+            <div class="footer-address">
+                <h4 class="section-title footer-title">COMO CHEGAR</h4>
+                <p class="footer-text">Rodovia Gov. Mário Covas, 13952-14054, Paraty - RJ. CEP 23970-000</p>
+                <div class="footer-address-map">
+                    <iframe class="footer-map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3666.2169417290656!2d-44.7121364!3d-23.2351914!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9d6cd00010be9f%3A0xd2416beae7940904!2sRod.%20Gov.%20M%C3%A1rio%20Covas%2C%2013952-14054%2C%20Paraty%20-%20RJ%2C%2023970-000!5e0!3m2!1spt-BR!2sbr!4v1621909808427!5m2!1spt-BR!2sbr" width="670" height="210" style="border:0;" allowfullscreen="" loading="lazy"></iframe>                
+                </div>
         </footer>
     </body>
 </html>
