@@ -116,6 +116,8 @@ html, body{
 
 .about-text-container{
     max-width: 400px;
+    min-width: 272px;
+    width: 100%;
 }
 
 .about-text{
@@ -271,6 +273,13 @@ html, body{
     justify-content: space-between;
 }
 
+.footer-contact{
+    max-width: 370px;
+    min-width: 308px;
+    width: 100%;
+    margin-right: 32px;
+}
+
 .footer-title{
     margin-bottom: 32px;
 }
@@ -309,6 +318,10 @@ html, body{
 
 .footer-map{
     border-radius: 10px;
+    max-width: 670px;
+    min-width: 307px;
+    width: 100%;
+    height: 210px;
 }
 
 .show_about_desktop{
@@ -334,10 +347,17 @@ html, body{
 }
 
 @media only screen and (max-width:1131px){
-    .about-title{
-        text-align: center;
+    .about{
+        margin: 42px 0 56px;
     }
     .about-content-container{
+        justify-content: center;
+    }
+    .about-text-container{
+        max-width: none;
+    }
+    .about-item-container{
+        max-width: none;
         justify-content: center;
     }
     .about-text{
@@ -365,6 +385,9 @@ html, body{
     }
     .lunch-container{
         background-position-x: -150px;
+    }
+    .footer {
+        padding: 72px 24px 97px;
     }
 }
 
@@ -423,12 +446,18 @@ html, body{
     .about-item {
         margin: 12px 8px;
     }
+    .boat-details{
+        margin-bottom: 56px;
+    }
     .boat-details-card{
         margin: 16px;
         width: 307px;
     }
     .boat-details-card img{
         width: 307px;
+    }
+    .lunch{
+        margin-bottom: 56px;
     }
     .lunch-title{
         font-size: 16px;
@@ -438,6 +467,12 @@ html, body{
     }
     .lunch-text-container{
         width: 250px;
+    }
+    .exclusive-roadmap-card-container{
+        margin-bottom: 56px;
+    }
+    .details{
+        margin-bottom: 40px;
     }
     .details-item, .details-item-last{
         display: block;
@@ -450,10 +485,36 @@ html, body{
         margin-bottom: 8px;
         font-size: 12px;
     }
+    .footer {
+        padding: 40px 24px 42px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .footer-subtitle{
+        font-size: 12px;
+    }
+    .footer-text{
+        font-size: 16px;
+    }
+    .footer-title{
+        margin-bottom: 24px;
+    }
+    .footer-address{
+        margin-top: 32px;
+    }
+    .footer-contact{
+        margin-right: 0px;
+    }
 }
 
 @media only screen and (max-width:483px){
     .about-item-container{
         justify-content:flex-start
+    }
+}
+
+@media only screen and (max-width:483px){
+    .boat-details-card img{
+        width: 272px;
     }
 }
