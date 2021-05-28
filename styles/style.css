@@ -156,10 +156,14 @@ html, body{
 }
 
 
-.roadmap-carousel , .exclusive-roadmap-card-container{
+.roadmap-carousel{
+    margin: 34px 0 72px;
+}
+
+.exclusive-roadmap-card-container{
     margin: 34px 0 72px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .exclusive-roadmap-card-container{
@@ -168,6 +172,10 @@ html, body{
 
 .roadmap-card, .exclusive-roadmap-card{
     width: 270px;
+}
+
+.exclusive-roadmap-card{
+    margin: 0 12px 24px 0;
 }
 
 .card-title{
@@ -469,7 +477,7 @@ html, body{
         width: 250px;
     }
     .exclusive-roadmap-card-container{
-        margin-bottom: 56px;
+        margin-bottom: 34px;
     }
     .details{
         margin-bottom: 40px;
@@ -511,10 +519,15 @@ html, body{
     .about-item-container{
         justify-content:flex-start
     }
-}
-
-@media only screen and (max-width:483px){
     .boat-details-card img{
         width: 272px;
     }
+}
+
+/* Glider Carousel */
+.glider-dots{
+    margin: 20px auto 0;
+}
+.glider-dot.active{
+    background: #348EC7;
 }
