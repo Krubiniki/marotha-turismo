@@ -111,10 +111,13 @@ html, body{
 .about-content-container{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .about-text-container{
     max-width: 400px;
+    min-width: 272px;
+    width: 100%;
 }
 
 .about-text{
@@ -210,6 +213,7 @@ html, body{
 .lunch-container{
     background-image: url("/imgs/food-banner.jpg");
     height: 400px;
+    border-radius: 10px;
 }
 
 .lunch-text-container{
@@ -273,6 +277,13 @@ html, body{
     justify-content: space-between;
 }
 
+.footer-contact{
+    max-width: 370px;
+    min-width: 308px;
+    width: 100%;
+    margin-right: 32px;
+}
+
 .footer-title{
     margin-bottom: 32px;
 }
@@ -311,4 +322,203 @@ html, body{
 
 .footer-map{
     border-radius: 10px;
+    max-width: 670px;
+    min-width: 307px;
+    width: 100%;
+    height: 210px;
+}
+
+.show_about_desktop{
+    display: flex;
+}
+.show_about_mobile{
+    display: none;
+}
+.lunch-mobile-banner{
+    display: none;
+}
+
+@media only screen and (max-width:1218px){
+    .section-container {
+        margin: 0px 26px;
+    }
+    .boat-details-cards-container{
+        justify-content: center;
+    }
+    .boat-details-card{
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width:1131px){
+    .about{
+        margin: 42px 0 56px;
+    }
+    .about-content-container{
+        justify-content: center;
+    }
+    .about-text-container{
+        max-width: none;
+    }
+    .about-item-container{
+        max-width: none;
+        justify-content: center;
+    }
+    .about-text{
+        margin-bottom: 28px;
+    }
+    .about-item{
+        margin: 12px 17px;
+    }
+    .show_about_desktop{
+        display: none;
+    }
+    .show_about_mobile{
+        display: flex;
+        margin: 40px auto 0px;
+    }
+    .lunch-container{
+        background-position-x: -50px;
+    }
+}
+
+/* LAPTOP */
+@media only screen and (max-width:1024px){
+    .hero-container {
+        margin: 245px 0px 0px 60px;
+    }
+    .lunch-container{
+        background-position-x: -150px;
+    }
+    .footer {
+        padding: 72px 24px 97px;
+    }
+}
+
+@media only screen and (max-width:960px){
+    .lunch-container{
+        background-color: #0E4972;
+        background-image: none;
+        border-radius: 10px 10px 0px 0px;
+        height: 340px;
+        width: 308px;
+        margin: 0px auto;
+    }
+    .lunch-text-container{
+        margin: 0px auto;
+        padding: 24px 17px;
+    }
+    .lunch-text-container h2, .lunch-text-container p{
+        color: #FFFFFF;
+    }
+    .lunch-mobile-banner{
+        display: block;
+        width: 308px;
+        margin: 0px auto !important;
+    }
+}
+
+/* TABLET */
+@media only screen and (max-width:768px){
+    .section-title{
+        font-size: 16px;
+    }
+    .section-text{
+        font-size: 14px;
+    }
+    .card-title{
+        font-size: 12px;
+    }
+    .header{
+        height: 360px;
+    }
+    .header-link{
+        margin: 16px;
+    }
+    .hero-container {
+        margin: 150px 0px 0px 26px;
+    }
+    .hero-text {
+        font-size: 16px;
+    }
+    .header-logo{
+        max-height: 112px;
+    }
+    .about-item-image{
+        height: 48px;
+    }
+    .about-item {
+        margin: 12px 8px;
+    }
+    .boat-details{
+        margin-bottom: 56px;
+    }
+    .boat-details-card{
+        margin: 16px;
+        width: 307px;
+    }
+    .boat-details-card img{
+        width: 307px;
+    }
+    .lunch{
+        margin-bottom: 56px;
+    }
+    .lunch-title{
+        font-size: 16px;
+    }
+    .lunch-container{
+        height: 240px;
+    }
+    .lunch-text-container{
+        width: 250px;
+    }
+    .exclusive-roadmap-card-container{
+        margin-bottom: 56px;
+    }
+    .details{
+        margin-bottom: 40px;
+    }
+    .details-item, .details-item-last{
+        display: block;
+        padding: 24px 0px;
+    }
+    .details-itens{
+        padding: 0px 24px;
+    }
+    .details-item-title{
+        margin-bottom: 8px;
+        font-size: 12px;
+    }
+    .footer {
+        padding: 40px 24px 42px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .footer-subtitle{
+        font-size: 12px;
+    }
+    .footer-text{
+        font-size: 16px;
+    }
+    .footer-title{
+        margin-bottom: 24px;
+    }
+    .footer-address{
+        margin-top: 32px;
+    }
+    .footer-contact{
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width:483px){
+    .about-item-container{
+        justify-content:flex-start
+    }
+}
+
+@media only screen and (max-width:483px){
+    .boat-details-card img{
+        width: 272px;
+    }
 }
