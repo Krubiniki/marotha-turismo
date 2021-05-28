@@ -199,11 +199,16 @@ html, body{
 .boat-details-cards-container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .boat-details-card{
-    width: 370px;
+    width: 270px;
+    margin: 0 12px 24px 0;
+}
+
+.boat-details-card img{
+    width: 270px;
 }
 
 .boat-details-card-title{
@@ -345,12 +350,6 @@ html, body{
 @media only screen and (max-width:1218px){
     .section-container {
         margin: 0px 26px;
-    }
-    .boat-details-cards-container{
-        justify-content: center;
-    }
-    .boat-details-card{
-        margin: 10px;
     }
 }
 
