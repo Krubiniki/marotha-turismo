@@ -3,7 +3,7 @@ html, body{
 }
 
 .header{
-    background-image: url("/imgs/hero.jpg");
+    background-image: url("/imgs/hero.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -33,12 +33,13 @@ html, body{
 }
 
 .hero-container{
-    margin: 245px 0px 0px 135px;
+    margin: 320px 0px 0px 0px;
 }
 
 .hero-text{
     font-family: 'sinkin_sans500_medium';
     font-style: normal;
+    text-align: center;
     font-weight: 500;
     font-size: 32px;
     line-height: 130%;
@@ -388,7 +389,7 @@ html, body{
 /* LAPTOP */
 @media only screen and (max-width:1024px){
     .hero-container {
-        margin: 245px 0px 0px 60px;
+        margin: 245px 0px 0px 0px;
     }
     .lunch-container{
         background-position-x: -150px;
@@ -439,7 +440,7 @@ html, body{
         margin: 16px;
     }
     .hero-container {
-        margin: 150px 0px 0px 26px;
+        margin: 150px 0px 0px 0px;
     }
     .hero-text {
         font-size: 16px;
